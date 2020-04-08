@@ -1,38 +1,288 @@
 <!DOCTYPE html
-	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Email</title>
-	<style type="text/css">
-		body {
-			Margin: 0;
-			padding: 0;
-		}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
-		table {
-			border-spacing: 0;
-		}
+        table {
+            border-spacing: 0;
+        }
 
-		td {
-			padding: 0;
-		}
+        td {
+            padding: 0;
+        }
 
-		img {
-			border: 0;
-		}
+        img {
+            border: 0;
+        }
 
-		@media screen and (max-width: 600px) {}
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #f6f9fc;
+            padding-bottom: 40px;
+        }
 
-		@media screen and (max-width: 400px) {}
-	</style>
+        .webkit {
+            max-width: 600px;
+            background-color: #fff;
+        }
+
+        .outer {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #333;
+        }
+
+        .three-columns {
+            text-align: center;
+            font-size: 0;
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+
+        .three-columns .column {
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .padding {
+            padding: 15px;
+        }
+
+        .three-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #388cda;
+            font-size: 16px;
+        }
+
+        @media screen and (max-width: 600px) {
+            img.third-img-last {
+                width: 200px !important;
+                max-width: 200px !important;
+            }
+
+            .padding {
+                padding-right: 0 !important;
+                padding-left: 0 !important;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            img.third-img {
+                width: 200px !important;
+                max-width: 200px !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <center class="wrapper">
+        <div class="webkit">
+            <table class="outer" align="center">
 
+                <tr>
+                    <td>
+                        <table width="100%">
+                            <tr>
+                                <td style="background-color:#388cda;padding:10px;text-align:center;">
+                                    <a href="#">
+                                        <img width="180"
+                                            src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/w3newbie-white.png"
+                                            alt="logo">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr><!-- single tr section -->
+
+                <tr>
+                    <td>
+                        <a href="#"><img width="600" style="max-width:100%;"
+                                src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/1200x700.jpg"
+                                alt="Baner"></a>
+                    </td>
+                </tr><!-- single tr section -->
+
+                <tr>
+                    <td>
+                        <table width="100%" style="border-spacing:0;">
+                            <tr>
+                                <td class="three-columns">
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#"><img class="third-img" width="150"
+                                                                    style="max-width:150px"
+                                                                    src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/380x280.jpg"
+                                                                    alt="watch"></a>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="padding:10px">
+                                                            <p style="font-size:17px;font-weight:bold;">APPLE WATCH</p>
+                                                            <p>pit mollitia dolor iste minima quasi sed atque at
+                                                                quaerat!</p>
+                                                            <a href="#">Learn More..</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#"><img class="third-img" width="150"
+                                                                    style="max-width:150px"
+                                                                    src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/380x280-2.jpg"
+                                                                    alt="watch"></a>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="padding:10px">
+                                                            <p style="font-size:17px;font-weight:bold;">EAR PODS</p>
+                                                            <p>pit mollitia dolor iste minima quasi sed atque at
+                                                                quaerat!</p>
+                                                            <a href="#">Learn More..</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#"><img class="third-img-last" width="150"
+                                                                    style="max-width:150px"
+                                                                    src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/380x280-3.jpg"
+                                                                    alt="watch"></a>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="padding:10px">
+                                                            <p style="font-size:17px;font-weight:bold;">WATCH BANDS</p>
+                                                            <p>pit mollitia dolor iste minima quasi sed atque at
+                                                                quaerat!</p>
+                                                            <a href="#">Learn More..</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr><!-- single tr section -->
+
+                <tr>
+                    <td>
+                        <table width="100%" style="border-spacing:0;">
+
+                            <tr>
+                                <td style="background-color:#388cda;padding:15px;text-align:center;">
+                                    <p style="font-size:18px;color:#fff;Margin-bottom:13px;">Contact with us</p>
+                                    <a href="#">
+                                        <img width="30"
+                                            src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/white-facebook.png">
+                                    </a>
+                                    <a href="#">
+                                        <img width="30"
+                                            src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/white-twitter.png">
+                                    </a>
+                                    <a href="#">
+                                        <img width="30"
+                                            src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/white-youtube.png">
+                                    </a>
+                                    <a href="#">
+                                        <img width="30"
+                                            src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/white-linkedin.png">
+                                    </a>
+                                    <a href="#">
+                                        <img width="30"
+                                            src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/white-instagram.png">
+                                    </a>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr><!-- single tr section -->
+
+                <tr>
+                    <td style="background-color:#efefef;">
+                        <table width="100%" style="border-spacing:0;">
+                            <tr>
+                                <td style="padding:20px;text-align:center;padding-bottom:10px;">
+                                    <a href="#">
+                                        <img width="160"
+                                            src="https://raw.githubusercontent.com/rkwdev/email-template-sample/master/img/w3newbie.png">
+                                    </a>
+                                    <p style="font-size:16px;Margin-top:18px;Margin-bottom:10px;">w3newbie HTML Email
+                                    </p>
+                                    <p style="font-size:16px;Margin-bottom:10px;">123 street road, city, state 555</p>
+                                    <p><a href="mailto:email@example.com">email@example.com</a></p>
+                                    <p><a href="tel:1800888888">1-800-888-888</a></p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding-bottom:20px;text-align:center;">
+                                    <a href="#" style="font-size:13px;">UNSUBSCRIBE</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr><!-- single tr section -->
+
+                <tr>
+                    <td height="20" style="background-color:#388cda;">
+                    </td>
+                </tr><!-- single tr section -->
+
+            </table><!-- whole template wrapper-->
+        </div>
+    </center>
 </body>
 
 </html>
